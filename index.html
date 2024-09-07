@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  </head>
+  <body>
+    <div class="mobile-screen-menu grid ">
+        <div class="mobile-menu-contianer  absolute   w-[100%] ">
+            <div class="cont w-full flex justify-around items-center">
+                <div class="mobile-menu order-1 bg-[#ea7066] h-[50px] w-[50px] relative text-white rounded-md">
+                    <span class="w-full bg-white "></span>
+                    <span class="w-full bg-white "></span>
+                    <span class="w-full bg-white "></span>
+                   </div>
+               <div class="mobile-logo flex  justify-center">
+                <img class="image max-w-[250px]" src="./images/شعار مدرسة الابداع والتطويرnew_page-0001.jpg" class="image" alt="">
+               </div>
+            </div>
+          
+           <ul class="last-menu">
+            <a href="index.html">
+                <li>الرئيسية</li>
+            </a>
+            <a href="aboutSchoolAr.html">
+                 <li>عن المدارس</li>
+            </a>
+           <a href="">
+              <li> الشكاوي</li>
+           </a>
+          
+           <a href="schoolSystemAr.html">
+            <li>النظام التعليمي</li>
+           </a>
+           <a href="registerAr.html">
+             <li>القبول والتسجيل</li>
+           </a>
+           
+           <a href="newsAr.html">
+            <li> المركز الاعلامي</li>
+           </a>
+            <a href="contactAr.html">
+                <li>تواصل معنا</li>
+            </a>
+           
+           </ul>
+        </div>
+        
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+     
+    </div>
+    <div class="header w-full bg-[#2f3c43]  ">
+        <div class="lines flex w-full bg-[#2f3c43]">
+     <div class="line h-[3px] w-[8.3%] bg-[#ea77ad]"></div>
+     <div class="line h-[3px] w-[8.3%] bg-[#a597e7]"></div>
+     <div class="line h-[3px] w-[8.3%] bg-[#84bed6]"></div>
+     <div class="line h-[3px] w-[8.3%] bg-[#ea7066]"></div>
+     <div class="line h-[3px] w-[8.3%] bg-[#b5d56a]"></div>
+     <div class="line h-[3px] w-[8.3%] bg-[#f0c24b]"></div>
+     <div class="line h-[3px] w-[8.3%] bg-[#ea77ad]"></div>
+     <div class="line h-[3px] w-[8.3%] bg-[#a597e7]"></div>
+     <div class="line h-[3px] w-[8.3%] bg-[#84bed6]"></div>
+     <div class="line h-[3px] w-[8.3%] bg-[#ea7066]"></div>
+     <div class="line h-[3px] w-[8.3%] bg-[#b5d56a]"></div>
+     <div class="line h-[3px] w-[8.3%] bg-[#f0c24b]"></div>
+        </div>
+        <div class="first-nav  container mx-auto flex justify-center items-center">
+
+            <div class="container flex lg:flex-row flex-col items-center justify-center w-full ">
+               <div class="about-andalus flex-1 text-[14px]">
+                <ul class="flex gap-x-[2rem] gap-y-[12px] flex-wrap justify-center items-center my-[1rem] text-white">
+                    <li class="flex items-center gap-[3px]">Andalus International Schools <i class="fa fa-earth bg-[#84bed6] p-2 rounded-full ml-[3px]"></i></li>
+                    <li class="flex items-center gap-[3px]">crm@as.edu.sa <i class="fa-regular fa-envelope bg-[#f0c24b] p-2 rounded-full ml-[3px]"></i></li>
+                    <li class="flex items-center gap-[3px]">920020282 <i class="fa-brands fa-whatsapp bg-[#b5d56a] p-2 rounded-full ml-[3px]"></i></i></li>
+                    <li class="flex items-center gap-[3px]">التوظيف <i class="fa-regular fa-clock bg-[#ea77ad] p-2 rounded-full ml-[3px]"></i></li>
+                </ul>
+               </div>
+               <div class="conten flex gap-[9px] justify-center items-center">
+                <div class="search flex-[0.5] flex  lg:justify-center flex my-[10px]">
+                    <i class="fa fa-search flex items-center text-black p-2 bg-white"></i>
+                    <input placeholder="بحث" class="" type="text">
+                </div>
+               
+                <select id="languageSelect" class="p-[5px] rounded-md">
+                    
+                    <option value="index.html">العربية</option>
+                    <option value="english.html">English</option>
+                  </select>
+               </div>
+
+            </div>
+        </div>
+        
+    </div>
+    <div class="second-nav w-full bg-white">
+        <div class="container flex mx-auto lg:justify-evenly justify-between items-center flex-wrap gap-y-[1rem] pt-[1rem] nav">
+           <div class="logo">
+               <img class="image" src="https://www.alandalus.edu.sa/front/img/ro2ya.png" alt="">
+           </div>
+           <div class="mobile-menu help order-1 bg-[#ea7066] h-[50px] w-[50px] relative text-white rounded-md">
+            <span class="w-full bg-white "></span>
+            <span class="w-full bg-white "></span>
+            <span class="w-full bg-white "></span>
+           </div>
+           <ul class="flex gap-[12px] xl:order-0 the-bottom overflow-hidden">
+               <a href="contactAr.html">
+                <li class="flex flex-col justify-center items-center min-w-[100px]">
+                    <i class=" fa-solid fa-bars flex-col bg-[#ea7066] p-2 rounded-full ml-[3px] "></i>
+                    تواصل معنا
+                </li>
+               </a>
+               <a href="newsAr.html">
+                 <li class="flex flex-col justify-center items-center min-w-[100px] relative have-menu">
+                   <i class=" fa-solid fa-icons flex-col bg-[#b5d56a] p-2 rounded-full ml-[3px] "></i>
+                   المركز الاعلامي
+                   
+               </li>
+               </a>
+              <a href="registerAr.html">
+                <li class="flex flex-col justify-center items-center min-w-[100px]">
+                <i class=" fa-regular fa-pen-to-square flex-col bg-[#84bed6] p-2 rounded-full ml-[3px] "></i>
+                القبول والتسجيل
+            </li>
+              </a>
+               <a href="schoolSystemAr.html">
+                 <li class="flex flex-col justify-center items-center min-w-[80px]">
+                   <i class=" fa-regular fa-calendar-days flex-col bg-[#a597e7] p-2 rounded-full ml-[3px] "></i>
+                   النظام التعليمي
+               </li>
+               </a>
+              
+              <a href="complaintsAr.html">
+                <li class="flex flex-col justify-center items-center min-w-[100px]">
+                    <i class=" fa-solid fa-link flex-col bg-[#ea77ad] p-2 rounded-full ml-[3px] "></i>
+                     الشكااوي
+                </li>
+              </a>
+              <a href="aboutSchoolAr.html">
+                <li class="flex flex-col justify-center items-center min-w-[100px]">
+                    <i class=" fa-regular fa-file flex-col bg-[#b5d56a] p-2 rounded-full ml-[3px] "></i>
+                    عن المدارس
+                </li>
+              </a>
+              <a href="index.html"> <li class="flex flex-col justify-center items-center min-w-[100px]">
+                   <i class=" fa-solid fa-house flex-col bg-[#f0c24b] p-2 rounded-full ml-[3px] "></i>
+                   الرئيسية
+               </li>
+            </a>
+              
+             
+              
+           </ul>
+           <div class="logo">
+               <img src="./images/شعار مدرسة الابداع والتطويرnew_page-0001.jpg" class="image" alt="">
+           </div>
+        </div>
+        <div class="main relative">
+            <img 
+            class="image absolute"
+            src="https://www.alandalus.edu.sa/storage/sliders/gTWtGYfQItydMuL8Dq3AyhZazWW8qq6cZkf1RoWM.jpeg" alt="">
+            <div class="content h-full w-full relative">
+              <h2> للتسجيل اضغط هنا</h2>
+              <div class="arrow-left absolute ">
+                <i class="fa-solid fa-chevron-left"></i>
+              </div>
+              <div class="arrow-right absolute">
+                <i class="fa-solid fa-chevron-right"></i>
+    
+              </div>
+            </div>
+           </div>
+       </div>
+       
+       <div class="features">
+        <div class="container mx-auto">
+            <div class="cards grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-[2rem]">
+                <div class="card card-1 bg-[#f0c24b] relative flex flex-col justify-center items-center  h-[250px] ">
+                    <i class="fa-solid fa-display border-[#f0c24b] border-x border-y"></i>
+                    <h2 class="text-[1.5rem]"> طلبات التوظيف</h2>
+                </div>
+                <div class="card card-2 relative flex flex-col   justify-center items-center bg-[#b5d56a] h-[250px]">
+                    <i class=" fa-solid fa-id-badge  border-[#b5d56a] border-x border-y"></i>
+                    <h2 class="text-[1.5rem]"> مجله اندلسيات</h2>
+                </div>
+                <div class="card card-3 relative flex flex-col justify-center items-center bg-[#ea7066] h-[250px]">
+                    <i class="fa-solid fa-retweet border-[#ea7066] border-x border-y"></i>
+                    <h2 class="text-[1.5rem]"> جولة افتراضيه</h2>
+                </div>
+                <div class="card card-4 relative flex flex-col justify-center items-center bg-[#84bed6] h-[250px]">
+                    <i class="fa-solid fa-award border-[#84bed6] border-x border-y"></i>
+                    <h2 class="text-[1.5rem]"> انجازات اندلسيه</h2>
+                </div>
+                
+            </div>
+        </div>
+       </div>
+       <div class="latest-news">
+        <div class="container mx-auto">
+            <div class="section-title title flex justify-center items-center">
+                <span class="shape shape-left bg-info is-sm"></span>
+                <h2> أحدث الأخبار
+                </h2>
+                <span class="shape shape-right bg-info is-sm"></span>
+            </div>
+            <div class="news grid lg:grid-cols-3 gap-[16px] md:grid-cols-2 sm:grid-cols-1 text-right">
+                <div class="new flex flex-col ">
+                    <div class="image image-news relative">
+                        <span class="absolute text-center py-[15px] px-[23px] bg-[#ea7066] text-white rounded-lg">30 <br> Aug</span>
+                        <img src="	https://www.alandalus.edu.sa/storage/general_news/pHpMcuONjwTmS7We9soXK8el1tqUnlc71KpI5Q0x.jpeg" alt="">
+                    </div>
+                    <div class="contentt p-3 bg-[#f8f8f8]">
+                        <h2 class="title text-[1.5rem] my-[12px] text-[#ea7066] mb-[40px]">
+                            افتتاح فرع الأندلس بنجران
+                        </h2>
+                        <span class="desc-title pb-[10px]">إدارة الاتصال المؤسسي</span>
+                        <p class="desc mt-[10px]">
+                            تعلن مدارس الأندلس الأهلية عن افتتاح فرعها الجديد بنجران (بنين - بنات) المسار الوطني - مسار المنهج الأمريكي
+                        </p>
+                       <div class="w-full more flex items-center">
+                        <span class="flex items-center gap-[5px]">اقرا المزيد<img class="max-w-[15px]" src="./images/left-arrow-6416.svg" alt=""</span>
+                       </div>
+                    </div>
+                </div>
+                <div class="new flex flex-col ">
+                    <div class="image image-news relative">
+                        <span class="absolute text-center py-[15px] px-[23px] bg-[#a597e7] text-white rounded-lg">30 <br> Aug</span>
+                        <img src="https://www.alandalus.edu.sa/storage/general_news/O4BKk9r2ccvTgtM0xq4VqVjKjUAkwBLAWS6eKD6p.jpeg" alt="">
+                    </div>
+                    <div class="contentt p-3 bg-[#f8f8f8]">
+                        <h2 class="title text-[1.5rem] my-[12px] text-[#a597e7] mb-[40px]">
+                            مبادرات تعليمية لتحسين نواتج التعلم
+                        </h2>
+                        <span class="desc-title pb-[10px]">إدارة الاتصال المؤسسي</span>
+                        <p class="desc mt-[10px]">
+                            تعمل مدارس الأندلس على بناء مهارات المستقبل لدى أبناءنا الطلاب، عبر عدد من المبادرات التعليمية
+
+                            اللغة الإنجليزية
+                        </p>
+                       <div class="w-full more flex items-center">
+                        <span class="flex items-center gap-[5px]">اقرا المزيد<img class="max-w-[15px]" src="./images/left-arrow-6416.svg" alt=""</span>
+                       </div>
+                    </div>
+                </div>
+                <div class="new flex flex-col ">
+                    <div class="image image-news relative">
+                        <span class="absolute text-center py-[15px] px-[23px] bg-[#f0c24b] text-white rounded-lg">30 <br> Aug</span>
+                        <img src="https://www.alandalus.edu.sa/storage/general_news/f5PNkFDeYopyftkoeXjymakcvJrRhRxJO7Ks0PlI.jpeg" alt="">
+                    </div>
+                    <div class="contentt p-3 bg-[#f8f8f8]">
+                        <h2 class="title text-[1.5rem] my-[12px] text-[#f0c24b] mb-[40px]">
+                            الاستحواذ على مدارس اليسر العالمية
+                        </h2>
+                        <span class="desc-title pb-[10px]">إدارة الاتصال المؤسسي</span>
+                        <p class="desc mt-[10px]">
+                            نبارك توقيع عقد الشراكة بين شركة الأندلس التعليمية وشركة سدكو القابضة للاستحواذ على مدارس اليسر العالمية والتي ستصبح أحد فروع شركة الأندلس التعليمية تحتى مسمى مدارس الأندلس ( العالمية - الموهوبين ) بحي الشاطئ                        </p>
+                       <div class="w-full more flex items-center">
+                        <span class="flex items-center gap-[5px]">اقرا المزيد<img class="max-w-[15px]" src="./images/left-arrow-6416.svg" alt=""</span>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <div class="end-button w-full flex justify-center items-center my-[20px]">
+       <button class=" text-white bg-[#ea7066]">أرشيف الأخبار</button>
+            </div>
+        </div>   
+       </div>
+       <div class="video-slider relative">
+        <div class="img absolute">
+            <img src="https://www.alandalus.edu.sa/front/img/background/left_youtube.jpg" alt="">
+        </div>
+        <div class="img2 absolute">
+            <img src="	https://www.alandalus.edu.sa/front/img/background/right_youtube.png" alt="">
+        </div>
+        <div class="container mx-auto max-w-[700px] p-2" >
+            <div class="section-title title flex justify-center items-center">
+                <span class="shape shape-left bg-info is-sm"></span>
+                <h2> مقاطع فيديو
+                </h2>
+                <span class="shape shape-right bg-info is-sm"></span>
+            </div>
+            <swiper-container class="mySwiper" pagination="true" pagination-type="progressbar" navigation="true">
+                <swiper-slide>
+                    <iframe width="560" class="mt-[10px] rounded-lg" height="315" src="https://www.youtube.com/embed/iGjRM24p4Bc?si=waTnREvztCD-wbfY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </swiper-slide>
+                <swiper-slide>
+                    <iframe width="560" class="mt-[10px] rounded-lg" height="315" src="https://www.youtube.com/embed/KKH4wf-PzJ8?si=b5AsDKbAfzysd3LM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </swiper-slide>
+
+                <swiper-slide>
+                    <iframe width="560" class="mt-[10px] rounded-lg" height="315" src="https://www.youtube.com/embed/4Zy5DwzPpaU?si=gHfQ2l16ApW3cIOD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </swiper-slide>
+                <swiper-slide>
+                    <iframe width="560" class="mt-[10px] rounded-lg" height="315" src="https://www.youtube.com/embed/t_-WO5aW31c?si=PzWdyGAaZAKAlUaB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </swiper-slide>
+                <swiper-slide>
+                    <iframe width="560" class="mt-[10px] rounded-lg" height="315" src="https://www.youtube.com/embed/Q55OmAQKmOU?si=4_4r4s5WcjfN8uTa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </swiper-slide>
+                <swiper-slide>
+                    <iframe width="560" class="mt-[10px] rounded-lg" height="315" src="https://www.youtube.com/embed/NlT0BNe105c?si=20lsNBdci24GLRcu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </swiper-slide>
+                <swiper-slide>
+                    <iframe width="560" class="mt-[10px] rounded-lg" height="315" src="https://www.youtube.com/embed/Otc0U8mEsIA?si=ME49yt_N1fhKupNA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </swiper-slide>
+                <swiper-slide>
+                    <iframe width="560" class="mt-[10px] rounded-lg" height="315" src="https://www.youtube.com/embed/Otc0U8mEsIA?si=ME49yt_N1fhKupNA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </swiper-slide>
+                <swiper-slide>
+                    <iframe width="560" class="mt-[10px] rounded-lg" height="315" src="https://www.youtube.com/embed/Otc0U8mEsIA?si=ME49yt_N1fhKupNA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </swiper-slide>
+             
+              </swiper-container>
+        </div>
+        <div class="end-button w-full flex justify-center items-center my-[20px]">
+            <button class=" text-white bg-[#ea7066]">   اشترك  هنا
+            </button>
+                 </div>
+       </div>
+       <div class="releases mb-[4rem]">
+        <div class="container mx-auto">
+            <div class="section-title title flex justify-center items-center">
+                <span class="shape shape-left bg-info is-sm"></span>
+                <h2>  إصدارتنا
+                </h2>
+                <span class="shape shape-right bg-info is-sm"></span>
+            </div>
+            <div class="items grid grid-cols-4 gap-[1.5rem] hidden ">
+                <div class="item justify-center bg-[#a597e7] flex flex-col p-[7px]">
+                <div class="image rounded-md">
+                    <img class="p-[30px] rounded-md bg-white" src="https://www.alandalus.edu.sa/storage/covers/0DJ7w9DAzbku64F2ml3kAy7ZdqHVjOWHR56eRd9W.jpeg" alt="">
+                </div>
+               <h2 class="title my-[10px] font-bold text-[1.5rem] my-[20px] text-center text-[#ffffff]">
+                الدليل التعريفي لمدارس الأندلس
+               </h2>
+                <div class="end-button w-full flex justify-center items-center my-[20px] ">
+                    <button class="  bg-white text-[#000000]"> تحميل  </button>
+                         </div>
+                </div>
+                <div class="item justify-center bg-[#f0c24b] flex flex-col p-[7px]">
+                <div class="image rounded-md">
+                    <img class="p-[30px] rounded-md bg-white" src="	https://www.alandalus.edu.sa/storage/covers/PGZXPqgpesCqGn8XTspDdePZppoKdjWniuauQTIh.jpeg" alt="">
+                </div>
+               <h2 class="title my-[10px] font-bold text-[1.5rem] my-[20px] text-center text-[#ffffff]">
+                مجمع أندلس مكة المكرمة
+
+               </h2>
+                <div class="end-button w-full flex justify-center items-center my-[20px] ">
+                    <button class=" bg-white text-[#000000]"> تحميل  </button>
+                         </div>
+                </div>
+                <div class="item justify-center bg-[#84bed6] flex flex-col p-[7px]">
+                <div class="image rounded-md">
+                    <img class="p-[30px] rounded-md bg-white" src="	https://www.alandalus.edu.sa/storage/covers/fzLP1D0tie3lRSwBi4pcCpwW42yxQHCOOSqA8Shw.jpeg" alt="">
+                </div>
+               <h2 class="title my-[10px] font-bold text-[1.5rem] my-[20px] text-center text-[#ffffff]">
+                البكالوريا الدولية
+            </h2>
+                <div class="end-button w-full flex justify-center items-center my-[20px] ">
+                    <button class="  bg-white text-[#000000]"> تحميل  </button>
+                         </div>
+                </div>
+                <div class="item justify-center bg-[#b5d56a] flex flex-col p-[7px]">
+                <div class="image rounded-md">
+                    <img class="p-[30px] rounded-md bg-white" src="https://www.alandalus.edu.sa/storage/covers/QvlF4tfvAwg74n7A1FJugUaDzbiXZlTZ8RbKJl3y.jpeg" alt="">
+                </div>
+               <h2 class="title my-[10px] font-bold text-[1.5rem] my-[20px] text-center text-[#ffffff]">
+                مجلة المدارس- أندلسيات
+            </h2>
+                <div class="end-button w-full flex justify-center items-center my-[20px] ">
+                    <button class="  bg-white text-[#000000]"> تحميل  </button>
+                         </div>
+                </div>
+                
+            </div>
+            <div class="mobile-slider overflow-hidden">
+                <swiper-container class="mySwiper swiper2" effect="cards" grab-cursor="true">
+                    <swiper-slide class="mobile-slide-1 ">
+                        <div class="item bg-[#a597e7] flex flex-col p-[7px]">
+                            <div class="image rounded-md">
+                                <img class="p-[30px] rounded-md bg-white" src="https://www.alandalus.edu.sa/storage/covers/0DJ7w9DAzbku64F2ml3kAy7ZdqHVjOWHR56eRd9W.jpeg" alt="">
+                            </div>
+                           <h2 class="title my-[10px] font-bold text-[1.5rem] my-[20px] text-center text-[#ffffff]">
+                            الدليل التعريفي لمدارس الأندلس
+                           </h2>
+                            <div class="end-button w-full flex justify-center items-center my-[20px] ">
+                                <button class="  bg-white text-[#000000]"> تحميل  </button>
+                                     </div>
+                            </div>
+                    </swiper-slide>
+                    <swiper-slide class="mobile-slide-2">
+                        <div class="item bg-[#f0c24b] flex flex-col p-[7px]">
+                            <div class="image rounded-md">
+                                <img class="p-[30px] rounded-md bg-white" src="https://www.alandalus.edu.sa/storage/covers/PGZXPqgpesCqGn8XTspDdePZppoKdjWniuauQTIh.jpeg" alt="">
+                            </div>
+                           <h2 class="title my-[10px] font-bold text-[1.5rem] my-[20px] text-center text-[#ffffff]">
+                            مجمع أندلس مكة المكرمة
+
+                           </h2>
+                            <div class="end-button w-full flex justify-center items-center my-[20px] ">
+                                <button class="  bg-white text-[#000000]"> تحميل  </button>
+                                     </div>
+                            </div>
+                    </swiper-slide>
+                    <swiper-slide class="mobile-slide-3">
+                        <div class="item bg-[#84bed6] flex flex-col p-[7px]">
+                            <div class="image rounded-md">
+                                <img class="p-[30px] rounded-md bg-white" src="https://www.alandalus.edu.sa/storage/covers/0DJ7w9DAzbku64F2ml3kAy7ZdqHVjOWHR56eRd9W.jpeg" alt="">
+                            </div>
+                           <h2 class="title my-[10px] font-bold text-[1.5rem] my-[20px] text-center text-[#ffffff]">
+                            البكالوريا الدولية
+                        </h2>
+                            <div class="end-button w-full flex justify-center items-center my-[20px] ">
+                                <button class=" bg-white text-[#000000]"> تحميل  </button>
+                                     </div>
+                            </div>
+                    </swiper-slide>
+                    <swiper-slide class="mobile-slide-4">
+                        <div class="item bg-[#b5d56a] flex flex-col p-[7px]">
+                            <div class="image rounded-md">
+                                <img class="p-[30px] rounded-md bg-white" src="https://www.alandalus.edu.sa/storage/covers/0DJ7w9DAzbku64F2ml3kAy7ZdqHVjOWHR56eRd9W.jpeg" alt="">
+                            </div>
+                           <h2 class="title my-[10px] font-bold text-[1.5rem] my-[20px] text-center text-[#ffffff]">
+                            مجلة المدارس- أندلسيات
+
+                           </h2>
+                            <div class="end-button w-full flex justify-center items-center my-[20px] ">
+                                <button class="  bg-white text-[#000000]"> تحميل  </button>
+                                     </div>
+                            </div>
+                    </swiper-slide>
+   
+                  </swiper-container>
+            </div>
+           
+        </div>
+       </div>
+       <div class="notice">
+        <div class="container flex flex-col gap-[1.5rem] ">
+            <h2 class="title font-bold text-white text-[2rem]">للتواصل و للملاحظات</h2>
+            <p class="text-white" style="    font-size: 18px;font-weight: 400;">يسعدنا تلقى ملاحظاتكم والإجابة على إستفساراتكم
+
+            </p>
+            <div class="end-button w-full flex justify-center items-center my-[20px]">
+                <button class=" text-white bg-[#ea7066]">   تواصل معنا</button>
+                     </div>
+           </div>
+        </div>
+       </div>
+       <div class="strategy">
+        <div class="container mx-auto">
+            <div class="section-title title flex justify-center items-center">
+                <span class="shape shape-left bg-info is-sm"></span>
+                <h2> المجالات الاستراتيجية
+
+                </h2>
+                <span class="shape shape-right bg-info is-sm"></span>
+            </div>
+            <div class="achieves p-2 grid  md:grid-cols-2 sm:grid-cols-1 gap-[1.5rem]">
+                <div class="achieve  md:flex bg-[#b5d56a]">
+                    <div class="right">
+                        <div class="image flex-1">
+                            <img class="w-full h-full" src="https://www.alandalus.edu.sa/storage/fields/sjNo4EXcnCMfKtNJOVnU9hxOxoX9qtCoswXAt2av.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="left flex flex-col gap-[1rem] text-white ">
+                <h2 class="title">التميز العلمي
+                </h2>
+                <div class="desc font-bold">
+                    ونعني به: تحقيق المؤسسة لمخرجات تعليمية عالية الجودة، وفق معايير معتمدة، أو متفق عليها في المجالين المعرفي، والمهارى، من خلال كوادر مؤهلة في بيئة محفزة، وداعمة للإبداع.
+
+
+                </div>
+                <div class="end-button w-full flex justify-center items-center my-[20px] ">
+                    <button class=" bg-white text-[#000000]"> اقرا المزيد  </button>
+                         </div>
+                    </div>
+                </div>
+                <div class="achieve  md:flex bg-[#ea77ad]">
+                    <div class="right">
+                        <div class="image flex-1">
+                            <img class="w-full h-full" src="https://www.alandalus.edu.sa/storage/fields/DzXXYo2q01zIOpx577zJQzRFmVquL3UBFPkA2279.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="left flex flex-col gap-[1rem] text-white ">
+                <h2 class="title"> التربية القيمية
+
+                </h2>
+                <div class="desc font-bold">
+                    ونعني بها: تبني المؤسسة لمنظومة قيمية تدعم الفضائل والسلوكيات النبيلة ، وتحرص على غرسها في نفوس المعنيين
+
+
+
+                </div>
+                <div class="end-button w-full flex justify-center items-center my-[20px] ">
+                    <button class="  bg-white text-[#000000]"> اقرا المزيد  </button>
+                         </div>
+                    </div>
+                </div>
+                <div class="achieve  md:flex bg-[#a597e7]">
+                    <div class="right">
+                        <div class="image flex-1">
+                            <img class="w-full h-full" src="https://www.alandalus.edu.sa/storage/fields/57AfFjk3tHRxWy9sPutKRK5p5GD38qHSOqmBYXw9.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="left flex flex-col gap-[1rem] text-white ">
+                <h2 class="title"> كفاءة التشغيل
+
+                </h2>
+                <div class="desc font-bold">
+                    ونعني بها : قدرة المؤسسة على حسن استخدام الموارد البشرية والمادية المتاحة؛ لتحقيق النتائج المرجوة في أقل وقت
+
+
+
+                </div>
+                <div class="end-button w-full flex justify-center items-center my-[20px] ">
+                    <button class="  bg-white text-[#000000]"> اقرا المزيد  </button>
+                         </div>
+                    </div>
+                </div>
+                <div class="achieve  md:flex bg-[#ea77ad]">
+                    <div class="right">
+                        <div class="image flex-1">
+                            <img class="w-full h-full" src="https://www.alandalus.edu.sa/storage/fields/KA6WjK4ltaNMWQdL8ERaLVdB52BEVZdL8k3uCbiI.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="left flex flex-col gap-[1rem] text-white ">
+                <h2 class="title"> البيئة الجاذبة
+
+                </h2>
+                <div class="desc font-bold">
+                    ونعني بها: تلبية احتياجات وتطلعات المعنيين المادية (مباني، ومرافق ...)، والمعنوية (الحرية، والتقدير، الاحترام،....) بما يدعم التميز وينمي علاقات العملاء.
+
+                </div>
+                <div class="end-button w-full flex justify-center items-center my-[20px] ">
+                    <button class="  bg-white text-[#000000]"> اقرا المزيد  </button>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+       <div class="important-links">
+        <div class="container mx-auto">
+            <div class="section-title title flex justify-center items-center">
+                <span class="shape shape-left bg-info is-sm"></span>
+                <h2> روابط هامة 
+
+                </h2>
+                <span class="shape shape-right bg-info is-sm"></span>
+            </div>
+            <div class="im-links p-3 grid lg:grid-cols-3 md:grid-cols-2  sm:grid-cols-1 gap-[1.5rem]">
+                <div class="link ">
+                    <i style="font-size: 35px; display: flex;" class="fa-regular  fa-star text-white icon flex justify-center items-center w-[75px] h-[75px] order-1 rounded-full bg-[#ea7066]">
+
+                    </i>
+                    <h2 class="title text-[1.5rem] font-bold text-[#ea7066]">
+                        النظام التعليمي
+                    </h2>
+                </div>
+                <div class="link ">
+                    <i style="font-size: 35px; display: flex;" class="fa-solid fa-mobile-screen-button text-white icon flex justify-center items-center w-[75px] h-[75px] order-1 rounded-full bg-[#84bed6]">
+
+                    </i>
+                    <h2 class="title text-[1.5rem] font-bold text-[#84bed6]">
+                        مركز مصادر التعلم
+                    </h2>
+                </div>
+                <div class="link ">
+                    <i style="font-size: 35px; display: flex;" class="fa-regular fa-brands fa-whatsapp text-white icon flex justify-center items-center w-[75px] h-[75px] order-1 rounded-full bg-[#b5d56a]">
+
+                    </i>
+                    <h2 class="title text-[1.5rem] font-bold text-[#b5d56a]">
+                        خدمة سداد الرسوم الدراسية
+                    </h2>
+                </div>
+                <div class="link ">
+                    <i style="font-size: 35px; display: flex;" class="fa-regular fa-square-check text-white icon flex justify-center items-center w-[75px] h-[75px] order-1 rounded-full bg-[#f0c24b]">
+
+                    </i>
+                    <h2 class="title text-[1.5rem] font-bold text-[#f0c24b]">
+                        الإرشاد الطلابي 
+                    </h2>
+                </div>
+                <div class="link ">
+                    <i style="font-size: 35px; display: flex;" class="fa-solid fa-shirt text-white icon flex justify-center items-center w-[75px] h-[75px] order-1 rounded-full bg-[#ea77ad]">
+
+                    </i>
+                    <h2 class="title text-[1.5rem] font-bold text-[#ea77ad]">
+                        النادي الأندلسي
+                    </h2>
+                </div>
+                <div class="link ">
+                    <i style="font-size: 35px; display: flex;" class="fa-solid fa-trophy text-white icon flex justify-center items-center w-[75px] h-[75px] order-1 rounded-full bg-[#a597e7]">
+
+                    </i>
+                    <h2 class="title text-[1.5rem] font-bold text-[#a597e7]">
+                        رعاية الموهوبين 
+                    </h2>
+                </div>
+            </div>
+        </div>
+       </div>
+       <div class="gallary">
+        <div class="container mx-auto">
+            <div class="section-title title flex justify-center items-center">
+                <span class="shape shape-left bg-info is-sm"></span>
+                <h2>  معرض الصور
+                </h2>
+                <span class="shape shape-right bg-info is-sm"></span>
+            </div>
+            <swiper-container class="mySwiper third-slider" pagination="true" effect="coverflow" grab-cursor="true" centered-slides="true"
+            slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0" coverflow-effect-depth="100"
+            coverflow-effect-modifier="1" coverflow-effect-slide-shadows="true">
+            <swiper-slide>
+              <img src="https://www.alandalus.edu.sa/storage/branches/tks7HGaGLsxILsDhtt0oX0lKUxxTWsjLaCs37SlR.jpeg" />
+            </swiper-slide>
+            <swiper-slide>
+              <img src="https://www.alandalus.edu.sa/storage/branches/wl9ktAv5UG1fGRoN9ppnvXHsqBqyR6MoKouOp0MG.jpeg" />
+            </swiper-slide>
+            <swiper-slide>
+              <img src="https://www.alandalus.edu.sa/storage/branches/2deshglSUB2WXAL3Zyr482D5Qq3itHqvi8wjhsU6.jpeg" />
+            </swiper-slide>
+            <swiper-slide>
+              <img src="https://www.alandalus.edu.sa/storage/branches/QYZXp1TJI5rk3cN8QGlLBk57oAAC7NyzJNMhDJK9.jpeg" />
+            </swiper-slide>
+            <swiper-slide>
+              <img src="https://www.alandalus.edu.sa/storage/branches/diuyqGW8r2G7cOIid3MbLaNKIAYVhpuejgKgXuxq.jpeg" />
+            </swiper-slide>
+   
+            </swiper-slide>
+          </swiper-container>
+
+        </div>
+        <div class="end-button w-full flex justify-center items-center my-[20px]">
+            <button class=" text-white bg-[#ea7066]"> المزيد</button>
+                 </div>
+       </div>
+       <div class="us mb-[3rem]">
+        <div class="container mx-auto">
+            <div class="section-title title flex justify-center items-center">
+                <span class="shape shape-left bg-info is-sm"></span>
+                <h2>   شركاء النجاح
+                </h2>
+                <span class="shape shape-right bg-info is-sm"></span>
+            </div>
+            <swiper-container
+      class="mySwiper fourth-slider"
+      pagination="true"
+      pagination-clickable="true"
+      slides-per-view="3"
+      
+      space-between="30"
+      free-mode="true"
+    >
+      <swiper-slide class="h-[150px]">
+        <div >
+            <img src="	https://www.alandalus.edu.sa/storage/sponsors/lDnnR1j4tGaofALgO1tovosAFz7HQKHcQBqDDqWG.jpeg" alt="">
+        </div>
+      </swiper-slide>
+      <swiper-slide class="h-[150px]">
+        <div >
+            <img src="	https://www.alandalus.edu.sa/storage/sponsors/Wj5qFJto3oYhZJLg6jap7P1xAG22jldDxpUuAkp6.jpeg" alt="">
+        </div>
+      </swiper-slide>
+      <swiper-slide class="h-[150px]">
+        <div >
+            <img src="	https://www.alandalus.edu.sa/storage/sponsors/9r9YnZjtliHmAHqqZwCij2FymWctLyt53cXl9MvP.jpeg" alt="">
+        </div>
+      </swiper-slide>
+      <swiper-slide class="h-[150px]">
+        <div >
+            <img src="	https://www.alandalus.edu.sa/storage/sponsors/g261l54rJcFqMiJsbXV7VVku8n8l0J6VAMMm0WIE.jpeg" alt="">
+        </div>
+      </swiper-slide>
+      <swiper-slide class="h-[150px]">
+        <div >
+            <img src="https://www.alandalus.edu.sa/storage/sponsors/N4oCqcBH6rWAcu04U8oiFXIQL78l45fi7AMRkyWp.jpeg" alt="">
+        </div>
+      </swiper-slide>
+      <swiper-slide class="h-[150px]">
+        <div >
+            <img src="	https://www.alandalus.edu.sa/storage/sponsors/wf59LzZhmBwXQ1D3zLxFusVzCD79jUFYcpeFaVOU.jpeg" alt="">
+        </div>
+      </swiper-slide>
+      <swiper-slide class="h-[150px]">
+        <div >
+            <img src="https://www.alandalus.edu.sa/storage/sponsors/f78j5s5KNO3u9f7q1L14988tw5gZjAwzCEeDMNlT.jpeg" alt="">
+        </div>
+      </swiper-slide>
+  
+    </swiper-container>
+    
+        </div>
+        
+       </div>
+       <footer>
+        <div class="container mx-auto flex justify-center  gap-[2rem] flex-wrap md:flex-row flex-col p-[20px]">
+            <div class="foot-right flex-1">
+<div class="section-title title flex justify-center items-center">
+                        <span class="shape shape-left bg-info is-sm"></span>
+                        <h2>   القائمة البريدية
+                        </h2>
+                        <span class="shape shape-right bg-info is-sm"></span>
+                    </div>
+                   
+                <div class="content mx-auto max-w-[425px] text-white flex flex-col">
+                    <p>
+                        للاشتراك في قائمتنا البريدية يرجى كتابة بريدك الإلكتروني في الحقل التالي ومن ثم الضغط على زر الاشتراك ليصلك جديد المدارس
+                    </p>
+                    <div class="search flex-[0.5] flex  lg:justify-center flex my-[10px] ">
+                        <i class="fa-solid fa-envelope flex items-center text-black p-2 text-white bg-[#ea7066]""></i>
+                        <input placeholder="البريد الاكتروني" class="" type="text">
+                    </div>
+                </div>
+            </div>
+            <div class="foot-left flex-1">
+                <div class="section-title title flex justify-center ">
+                    <span class="shape shape-left bg-info is-sm"></span>
+                    <h2>  روابط هامة
+ 
+                    </h2>
+                    <span class="shape shape-right bg-info is-sm"></span>
+                </div>
+                <ul class="flex flex-col gap-[10px] text-white">
+                   
+                    <li> 
+                        البريد الإلكتروني للمنسوبين
+                    </li>
+                    <li> 
+                        الموارد البشرية
+                    </li>
+                    <li> 
+                        إدارة الموقع الإلكتروني
+                    </li>
+                    <li> 
+                        طلبات التوظيف
+                    </li>
+                    <li> 
+                        الحسابات البنكية  
+                    </li>
+                    <li> 
+                        إدارة القبول والتسجيل                   
+                     </li>
+                    <li> 
+                        نموذج تسجيل طالب جديد                     </li>
+                </ul>
+            </div>
+        </div>
+        <div class="last-section bg-[#003345]">
+            <div class="container mx-auto bg-[#003345]">
+                <div class="section-title title flex justify-center items-center">
+                    <span class="shape shape-left bg-info is-sm"></span>
+                    <h2>    تواصل معنا
+                    </h2>
+                    <span class="shape shape-right bg-info is-sm"></span>
+                </div>
+                
+                <div class="social-links grid grid-cols-3 gap-[1rem]">
+                    
+                 <div class="social-link">
+                    <i class="fa-solid fa-question text-[30px]"></i>
+                    <p>ارسل استفسارك</p>
+                 </div>
+                 <div class="social-link">
+                    <i class="fa-brands fa-telegram text-[30px]"></i>
+                    <p> الموقع الجغرافى</p>
+                 </div>
+                 <div class="social-link">
+                    <i class="fa-brands fa-square-whatsapp text-[30px]"></i>
+                    <p>أرقام التواصل </p>
+                 </div>
+                </div>
+            </div>
+           </div>
+       </footer>
+       <script >
+        window.localStorage.setItem("language","arabic")
+      </script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollTrigger/1.0.6/ScrollTrigger.min.js" integrity="sha512-+LXqbM6YLduaaxq6kNcjMsQgZQUTdZp7FTaArWYFt1nxyFKlQSMdIF/WQ/VgsReERwRD8w/9H9cahFx25UDd+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+       <script src="index.js"></script> 
+  </body>
+</html>
